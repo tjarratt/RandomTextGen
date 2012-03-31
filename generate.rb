@@ -20,6 +20,6 @@ end
 words = seed_text.split(' ')
 seed = words.at(Random.rand(words.length)).gsub(/[^A-Za-z]/, '')
 
-puts "generating from seed #{seed} with a body of size #{words.length}"
-
-puts RandomText::TextGenerator.new.seed(seed_text).generate(seed)
+text = RandomText::TextGenerator.new.seed(seed_text).generate(seed)
+puts text
+`say #{text}` unless `which say`.empty?
