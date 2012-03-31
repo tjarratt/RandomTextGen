@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'random-text-gen'
-  s.version = 1.0
+  s.version = 1.1
   s.authors = ['Tim Jarratt']
   s.email = ['tjarratt@gmail.com']
   s.homepage = 'http://github.com/tjarratt/RandomTextGen'
