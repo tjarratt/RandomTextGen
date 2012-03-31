@@ -7,5 +7,5 @@ Gem::Specification.new do |s|
   s.summary = 'Create a random string from a body of text.'
 
   s.require_path = 'lib'
-  s.files = Dir.glob('{lib/**/*') + %w{LICENSE README}
+  s.files = Dir.glob('lib/**/*') + %w{LICENSE README}
 end
